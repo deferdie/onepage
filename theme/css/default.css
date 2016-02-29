@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,700);
+
+html{
+  background: url(../img/Website-Design-Background.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bak:after{
+  position: relative;
+  display: block;
+}
+
+#topNav{
+  width: 90%;
+  position: relative;
+  z-index: 10;
+  right: 0;
+  text-align: right;
+  color: #f0f0f0;
+  display: block;
+}
+
+#topNav ul, li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+#topNav li{
+  padding: 15px;
+  margin: 9px;
+}
+
+.active{
+  border-bottom: 2px solid #fff;
+}
+
+#topNav li:hover{
+  transition: all 0.1s ease;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+  color: #fff;
+}
+
+.welcome{
+  position: relative;
+  font-size: 4em;
+  width: 100%;
+  /*  animation: type 10s steps(90, end) 1;*/
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.h{
+  position: relative;
+  z-index: 1000;
+  display: block;
+  padding: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 140px;
+  width: 100%;
+  font-size: 3em;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.content{
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content form span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@keyframes type{
+  from{width: 0;}
+}
