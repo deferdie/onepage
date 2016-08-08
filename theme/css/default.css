@@ -1,47 +1,55 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,700);
 
-html{
-  background: url(../img/Website-Design-Background.png);
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+html
+{
+    background: url(../img/Website-Design-Background.png) center center fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
+.clearfix:after
+{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-body{
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Raleway', sans-serif;
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
 }
 
-.bak:after{
-  position: relative;
-  display: block;
+.bak:after
+{
+    position: relative;
+    display: block;
 }
 
-#topNav{
-  width: 90%;
-  position: relative;
-  z-index: 10;
-  right: 0;
-  text-align: right;
-  color: #f0f0f0;
-  display: block;
+#topNav
+{
+    width: 90%;
+    position: relative;
+    z-index: 10;
+    right: 0;
+    text-align: right;
+    color: #f0f0f0;
+    display: block;
 }
 
 #topNav ul, li{
@@ -77,28 +85,31 @@ body{
   margin-top: 10%;
 }
 
-.h{
-  position: relative;
-  z-index: 1000;
-  display: block;
-  padding: 30px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 140px;
-  width: 100%;
-  font-size: 3em;
-  color: aliceblue;
-  background-color: rgba(0, 0, 0, 0.45);
+.lg-title{
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1000;
+    display: block;
+    padding: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 140px;
+    width: 100%;
+    font-size: 3em;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
-.content{
-  width: 100%;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.45);
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.content
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .content form span:hover{
@@ -110,13 +121,14 @@ body{
   max-width: 800px;
   height: auto;
   box-sizing: border-box;
-  padding: 10px;
+  padding-top: 10px;
   background-color: #fff;
   text-align: center;
   margin: 30px auto;
   margin-bottom: 0px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
+
 }
 
 .cardContent{
@@ -125,6 +137,7 @@ body{
 
 .card-image img{
   width: 300px;
+  padding-left: 10px;
   float: left;
 }
 
@@ -142,11 +155,12 @@ body{
 }
 
 .socialMediaBlock{
-  width: 780px;
+  width: 100%;
+  box-sizing: border-box;
   padding: 10px;
   background: rgba(233, 144, 144, 0.83);
   text-align: center;
-  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .socialMediaBlock img{
@@ -157,9 +171,71 @@ body{
 
 .socialMediaBlock img:hover{
   transition: background 0.2s linear;
-  background: rgba(000, 000, 000, 0.23);
+  background: rgba(255, 255, 255, 0.43);
   border-radius: 50%;
   cursor: pointer;
+}
+
+.socialMediaBlock a
+{
+    text-decoration: none;
+}
+
+.code
+{
+    background: url(../img/code.png) center center fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.tech
+{
+    width: 100%;
+    display: block;
+}
+
+.tech li
+{
+    width: 20%;
+}
+
+.tech li img
+{
+    width: 100%;
+}
+
+.awesome-shadow
+{
+    box-shadow: 0px 0 15px -4px rgba(31, 73, 125, 0.8), 2px 0 1px -4px rgba(31, 73, 125, 0.8);
+}
+
+.name:hover
+{
+    transition: color 0.2s linear;  
+}
+
+.f:hover{ color: rgba(255, 255, 255, 0.43); }
+
+.e:hover{ color: rgba(255, 255, 25, 0.43); }
+
+.r:hover{ color: rgba(255, 255, 230, 0.43); }
+
+.d:hover{ color: rgba(255, 155, 230, 0.43); }
+
+.i:hover{ color: rgba(225, 155, 230, 0.43); }
+
+.no-flex
+{
+    display: block;
+}
+
+.text-left
+{
+    text-align: left;
 }
 
 @keyframes type{
