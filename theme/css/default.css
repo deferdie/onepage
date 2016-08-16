@@ -185,39 +185,39 @@ body
 
 .code
 {
-        background: url(../img/code.png) center center fixed;
-        background-position: fixed;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    background: url(../img/code.png) center center fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .tech
 {
-        width: 100%;
-        display: block;
+    width: 100%;
+    display: block;
 }
 
 .tech li
 {
-        width: 20%;
+    width: 20%;
 }
 
 .tech li img
 {
-        width: 100%;
+    width: 100%;
 }
 
 .awesome-shadow
 {
-        box-shadow: 0px 0 15px -4px rgba(31, 73, 125, 0.8), 2px 0 1px -4px rgba(31, 73, 125, 0.8);
+    box-shadow: 0px 0 15px -4px rgba(31, 73, 125, 0.8), 2px 0 1px -4px rgba(31, 73, 125, 0.8);
 }
 
 .name:hover
 {
-        transition: color 0.2s linear;  
+    transition: color 0.2s linear;  
 }
 
 .f:hover{ color: rgba(255, 255, 255, 0.43); }
