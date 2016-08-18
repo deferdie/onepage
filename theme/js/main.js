@@ -1,10 +1,3 @@
-document.getElementById('name').style.visibility = "hidden";
-
-function showInput()
-{
-    document.getElementById('name').style.visibility = "visible"; 
-}
-
 // Functions for flipping
 $(function(){
 	$(".project-card").flip({
@@ -13,6 +6,14 @@ $(function(){
 	    trigger: 'hover'
 	});
 });
+document.getElementById('name').style.visibility = "hidden";
+
+function showInput()
+{
+    document.getElementById('name').style.visibility = "visible"; 
+}
+
+
 
 // $('.but').click(function(event) {
 //     // get the Data
