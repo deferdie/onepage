@@ -330,12 +330,14 @@ a:visited
 {
     display: flex;
     flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
 .project-card-container
 {
     width: 48%;
+    margin-top: 30px;
 }
 
 .project-card-container button
@@ -374,7 +376,7 @@ a:visited
     height: 330px;
 }
 
-.project-card h3
+.project-card-container h3
 {
     font-size: 30px;
     padding: 0px !important;
@@ -396,6 +398,12 @@ a:visited
 {
     background: #bad12f !important;
 }
+
+.planet4
+{
+    background: #EC8C21 !important;
+}
+
 .back
 {
     width: 100% !important;
