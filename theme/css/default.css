@@ -11,6 +11,22 @@ html
         background-size: cover;
 }
 
+a
+{
+    text-decoration: none !important;
+}
+
+.amatic
+{
+    font-family: 'Amatic SC', cursive;
+}
+
+h2
+{
+    font-size: 2.8em;
+}
+
+
 .clearfix:after
 {
         visibility: hidden;
@@ -33,6 +49,11 @@ body
         padding: 0px;
         margin: 0px;
         font-family: 'Raleway', sans-serif;
+}
+
+h2
+{
+    color: #fff;
 }
 
 .bak:after
@@ -62,6 +83,18 @@ body
 #topNav li{
     padding: 15px;
     margin: 9px;
+}
+
+.topNav li a
+{
+    text-decoration: none !important;
+    color: #fff;
+}
+
+li a:visited
+{
+    text-decoration: none !important;
+    color: #fff;
 }
 
 .active{
@@ -100,6 +133,12 @@ body
         background-color: rgba(0, 0, 0, 0.45);
 }
 
+.container
+{
+    max-width: 800px;
+    margin: 40px auto;
+}
+
 .content
 {
         width: 100%;
@@ -118,7 +157,7 @@ body
 }
 
 .cardContainer{
-    max-width: 800px;
+    width: 100%;
     height: auto;
     box-sizing: border-box;
     padding: 10px;
@@ -185,7 +224,7 @@ body
 
 .code
 {
-    background: url(../img/code.png) center center fixed;
+    background: url(../img/code-two.png) center center fixed !important;
     background-position: fixed;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -212,7 +251,7 @@ body
 
 .awesome-shadow
 {
-    box-shadow: 0px 0 15px -4px rgba(31, 73, 125, 0.8), 2px 0 1px -4px rgba(31, 73, 125, 0.8);
+    box-shadow: 0px 0 15px -4px rgba(000, 000, 000, 0.8), 2px 0 1px -4px rgba(31, 73, 125, 0.8);
 }
 
 .name:hover
@@ -255,4 +294,115 @@ body
     {
         width: 100%;
     }
+}
+
+.border-text
+{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #666;
+    color: #fafafa;
+    border-radius: 2px;
+}
+
+.hidden
+{
+    display: none   !important;
+    visibility: hidden  !important;
+}
+
+.back-block
+{
+    background: rgba(000,000,000, 0.8);
+    padding: 10px;
+}
+
+.white-back
+{
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+    box-shadow: 0px 0 15px -4px rgba(255, 255, 255, 0.2), 2px 0 1px -4px rgba(255, 255, 255, 0.2);
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-card-container
+{
+    width: 48%;
+}
+
+.project-card-container button
+{
+    position: absolute;
+    z-index: 100000;
+    margin-top: -70px;
+    margin-left: 130px;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgba(25, 157, 255, 0.98);
+    font-size: 12px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
+}
+
+.project-card-container:hover  button
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.project-card
+{
+    width: 100%;
+    background-color: transparent;
+    margin: 20px 0px;
+    height: 300px;
+}
+
+.project-card img
+{
+    height: 330px;
+}
+
+.project-card h3
+{
+    font-size: 30px;
+    padding: 0px !important;
+    margin: 10px 0px !important;
+}
+
+.img-responsive
+{
+    width: 100%;
+    display: block;
+}
+
+.white-text
+{
+    color: #fff !important;
+}
+
+.paul-west
+{
+    background: #bad12f !important;
+}
+.back
+{
+    width: 100% !important;
+    background: #bad12f !important;
+}
+
+.back-content
+{
+    height: 300px;
 }
