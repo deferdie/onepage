@@ -510,5 +510,21 @@ a:visited
 .burger:hover
 {
     background-image: url('/theme/img/burger-e.png');
+}
 
+footer
+{
+    width: 100%;
+    padding: 100px;
+    background-color: #85bfe2;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+footer h4
+{
+    padding: 0px !important;
+    margin: 0px !important;
+    color: #fff;
+    font-size: 60px
 }
