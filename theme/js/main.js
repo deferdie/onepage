@@ -6,14 +6,20 @@ $(function(){
 	    trigger: 'hover'
 	});
 });
-document.getElementById('name').style.visibility = "hidden";
 
-function showInput()
-{
-    document.getElementById('name').style.visibility = "visible"; 
+/* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("topNav").style.width = "100%";
 }
 
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("topNav").style.width = "0%";
+}
 
+$('.overlay-content  a').click(function() {
+	document.getElementById("topNav").style.width = "0%";
+});
 
 // $('.but').click(function(event) {
 //     // get the Data
