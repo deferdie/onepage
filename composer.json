@@ -1,3 +1,7 @@
 {
-	
+    "name": "deferdie/onepage",
+    "description": "My personal website",
+    "keywords": ["personal", "website", "Ferdie De Oliveira"],
+    "license": "MIT",
+    "type": "project"
 }
